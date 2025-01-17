@@ -5,7 +5,7 @@ import {FaGithub} from "@react-icons/all-files/fa/FaGithub";
 const Navbar = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/CV.pdf"; // Update this path to where your CV is located
+    link.href = "/CV1.pdf"; // Update this path to where your CV is located
     link.download = "Yeeswanth_CV.pdf";
     link.click();
   };
